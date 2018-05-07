@@ -1,0 +1,14 @@
+pr-content {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: var(--content-width);
+  padding: calc(var(--base) * 8) var(--content-padding);
+}
+
+@media (max-width: 600px) {
+  pr-content {
+    padding: calc(var(--base) * 4);
+  }
+}

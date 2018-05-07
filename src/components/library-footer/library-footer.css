@@ -1,0 +1,8 @@
+pr-library-footer footer {
+  padding: calc(var(--base) * 10) 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-gap: calc(var(--base) * 3);
+}

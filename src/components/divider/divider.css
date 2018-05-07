@@ -1,0 +1,8 @@
+pr-divider hr {
+  margin: calc(var(--base) * 10) 0;
+  border: none;
+  height: var(--border-width);
+  background: var(--light);
+  display: block;
+  opacity: 0.1;
+}

@@ -1,0 +1,30 @@
+pr-input {
+  display: block;
+  margin-bottom: calc(var(--base) * 6);
+}
+
+pr-input input {
+  height: calc(var(--base) * 8);
+  font-size: var(--font-size--S);
+  padding: calc(var(--base) * 2);
+  border-radius: var(--border-radius);
+  border: var(--border-width) solid black;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow cubic-bezier(0.33, 1.16, 0.83, 0.95) 120ms;
+}
+
+pr-input input:focus {
+  outline: none;
+  animation: bump ease-in-out 350ms 1;
+  box-shadow: 5px 5px 0 0 var(--main-color, var(--ps-yellow));
+}
+
+pr-input input:invalid {
+  box-shadow: 0 0 0 3px var(--ps-red);
+}
+
+pr-input pr-label {
+  margin-bottom: calc(var(--base) * 2);
+}

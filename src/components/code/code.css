@@ -1,0 +1,66 @@
+pr-code {
+  display: block;
+  background: var(--ps-grey--alpha);
+  margin-bottom: 1em;
+  position: relative;
+  border-radius: var(--border-radius);
+}
+
+pr-code .pr-code-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--border-width) solid var(--ps-blue);
+  padding: calc(var(--base) * 2) calc(var(--base) * 4);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+pr-code .pr-code-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-size: 20px;
+  display: block;
+  padding: calc(var(--base) * 4);
+}
+
+.code-to-copy {
+  opacity: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/*  HTML */
+pr-code .tag {
+  color: var(--ps-red);
+}
+
+pr-code .punctuation {
+  color: white;
+}
+
+pr-code .attr-name {
+  color: var(--ps-yellow);
+}
+
+pr-code .attr-value,
+pr-code .attr-value .punctuation:last-child,
+pr-code .attr-value .punctuation:nth-child(2) {
+  color: var(--ps-green);
+}
+
+pr-code .attr-name {
+  color: var(--ps-yellow);
+}
+
+/*  CSS */
+pr-code .selector {
+  color: var(--ps-red);
+}
+
+pr-code .property {
+  color: var(--ps-green);
+}

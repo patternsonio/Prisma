@@ -1,0 +1,9 @@
+pr-label {
+  display: block;
+  font-size: var(--font-size--M);
+  font-weight: 900;
+}
+
+.pr-label--margin {
+  margin-bottom: calc(var(--base) * 2);
+}

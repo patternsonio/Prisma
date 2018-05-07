@@ -1,0 +1,46 @@
+pr-syntax-highlight {
+  /*  --copy-color */
+  display: block;
+}
+
+.pr-syntax-highlight-code {
+  font-family: var(--ps-code-font-family);
+  overflow-x: auto;
+  display: block;
+}
+
+pr-syntax-highlight pre {
+  margin: 0;
+}
+
+/*  HTML */
+pr-syntax-highlight .tag {
+  color: var(--ps-red);
+}
+
+pr-syntax-highlight .punctuation {
+  color: var(--copy-color);
+}
+
+pr-syntax-highlight .attr-name {
+  color: var(--ps-yellow);
+}
+
+pr-syntax-highlight .attr-value,
+pr-syntax-highlight .attr-value .punctuation:last-child,
+pr-syntax-highlight .attr-value .punctuation:nth-child(2) {
+  color: var(--ps-green);
+}
+
+pr-syntax-highlight .attr-name {
+  color: var(--ps-yellow);
+}
+
+/*  CSS */
+pr-syntax-highlight .selector {
+  color: var(--ps-red);
+}
+
+pr-syntax-highlight .property {
+  color: var(--ps-green);
+}

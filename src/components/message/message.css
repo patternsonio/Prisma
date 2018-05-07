@@ -1,0 +1,11 @@
+pr-message {
+  display: block;
+  padding: calc(var(--base) * 6);
+  background: var(--light);
+  color: var(--dark);
+  border: var(--base) solid var(--ps-blue);
+}
+
+.pr-message-warning {
+  border-color: var(--ps-red);
+}

@@ -1,0 +1,23 @@
+pr-component-demo {
+  display: block;
+  background: white;
+  color: black;
+  border-radius: var(--border-radius);
+  --copy-color: black;
+  padding: calc(var(--base) * 4) calc(var(--base) * 4);
+  margin-bottom: calc(var(--base) * 4);
+  transition: box-shadow ease-in-out 200ms;
+}
+.pr-component-demo--inverted {
+  border: 2px solid white;
+  background: none;
+  --copy-color: white;
+  color: white;
+}
+.pr-component-headline {
+  font-size: var(--font-size--M);
+  margin: 0;
+}
+.pr-component-demo__content {
+  padding: calc(var(--base) * 2) 0;
+}

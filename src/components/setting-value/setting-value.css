@@ -1,0 +1,9 @@
+.pr-setting-value-content {
+  font-size: var(--font-size--L);
+}
+
+.pr-setting-value {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+}

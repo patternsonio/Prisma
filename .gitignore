@@ -1,0 +1,8 @@
+coverage/
+node_modules/
+npm-debug.log
+.DS_Store
+www/
+dist/
+src/components.d.ts
+.patternsonrc

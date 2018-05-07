@@ -1,0 +1,15 @@
+.pr-avatar {
+  border-radius: var(--border-radius);
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  transition: transform 250ms ease-in-out;
+  background-position: center center;
+  background-blend-mode: screen;
+  background-color: transparent;
+  transition: background-color 120ms ease-in-out;
+}
+
+.pr-avatar:hover {
+  background-color: var(--main-color, var(--ps-magenta));
+}

@@ -1,0 +1,8 @@
+.pr-topbar {
+  padding: calc(var(--base) * 4);
+  background: var(--dark);
+  --size: calc(var(--base) * 10);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

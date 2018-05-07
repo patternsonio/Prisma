@@ -1,0 +1,15 @@
+.pr-component-backlink {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: calc(var(--base) * 5);
+  justify-content: start;
+  align-items: center;
+  color: inherit;
+  margin-bottom: calc(var(--base) * 20);
+}
+
+.pr-component__content {
+  padding: calc(var(--base) * 6) 0;
+  margin-bottom: calc(var(--base) * 4);
+}

@@ -1,0 +1,35 @@
+pr-supported-tile {
+  display: block;
+}
+
+pr-supported-tile img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+pr-supported-tile figure {
+  width: calc(var(--base) * 18);
+  height: calc(var(--base) * 18);
+  padding: calc(var(--base) * 4);
+  border-radius: var(--border-radius);
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+pr-supported-tile figcaptaion {
+  font-weight: 900;
+}
+
+pr-supported-tile a {
+  text-decoration: none;
+}
+
+pr-supported-tile.not-supported {
+  opacity: 0.5;
+}

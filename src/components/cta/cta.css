@@ -1,0 +1,22 @@
+pr-cta {
+  display: block;
+  background: var(--ps-yellow);
+  color: black;
+  max-width: 45ch;
+  font-size: var(--font-size--M);
+  padding: calc(var(--base) * 4);
+}
+
+.pr-cta-headline {
+  margin: 0;
+  margin-bottom: calc(var(--base) * 3);
+  font-size: 46px;
+}
+
+.pr-cta-paragraph {
+  margin-bottom: calc(var(--base) * 3);
+}
+
+.p-cta-button {
+  --main-color: var(--ps-blue);
+}

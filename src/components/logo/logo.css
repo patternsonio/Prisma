@@ -1,0 +1,29 @@
+pr-logo {
+  display: block;
+}
+.pr-logo {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+.pixel {
+  --pr-pixel-size: 40px;
+  --pr-pixel-spin: 15deg;
+  margin-right: calc(var(--base) * 3);
+}
+
+.name {
+  font-size: var(--font-size--L);
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .pixel {
+    --pr-pixel-size: 30px;
+    --pr-pixel-spin: 25deg;
+  }
+  .name {
+    font-size: var(--font-size);
+  }
+}

@@ -1,0 +1,14 @@
+.pr-headline {
+  font-weight: 900;
+  margin: 0;
+}
+h1.pr-headline {
+  font-size: var(--font-size--XXL);
+}
+h2.pr-headline {
+  font-size: var(--font-size--XL);
+}
+
+.pr-headline--margin .pr-headline {
+  margin-bottom: calc(var(--base) * 4);
+}

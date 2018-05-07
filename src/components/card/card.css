@@ -1,0 +1,7 @@
+pr-card {
+  background: var(--dark);
+  display: inline-block;
+  padding: calc(var(--base) * 8);
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Prisma",
+  "description": "The Component Library of a Component Library Hosting Platform",
+  "private": true,
+  "scripts": {
+    "start": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server --no-open\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patternsonio/Prisma.git"
+  },
+  "author": "patternson-prisma@xiphe.net",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@patternson/cli": "^1.2.0",
+    "@patternson/release": "^0.1.0",
+    "@stencil/dev-server": "0.0.18",
+    "@stencil/utils": "0.0.4",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.12.1",
+    "semantic-release": "15.1.7"
+  },
+  "dependencies": {
+    "@stencil/core": "0.7.25"
+  },
+  "release": {
+    "extends": [
+      "@patternson/release/config"
+    ]
+  }
+}

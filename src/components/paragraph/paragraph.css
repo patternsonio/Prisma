@@ -1,0 +1,15 @@
+.pr-paragraph-margin p {
+  margin-bottom: calc(var(--base) * 6);
+}
+
+pr-paragraph {
+  display: block;
+}
+
+pr-paragraph p {
+  margin-top: 0;
+}
+
+.pr-paragraph-type-big {
+  font-size: var(--font-size--M);
+}

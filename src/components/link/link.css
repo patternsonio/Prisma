@@ -1,0 +1,5 @@
+.pr-link {
+  color: var(--ps-blue);
+  text-decoration: underline;
+  font-weight: 900;
+}

@@ -1,0 +1,50 @@
+.pr-toggle__label {
+  display: inline-flex;
+  color: white;
+  height: calc(var(--base) * 6);
+  border-radius: var(--border-radius);
+  border: var(--border-width) white solid;
+  position: relative;
+}
+
+.pr-toggle__label:hover {
+  border-color: var(--ps-blue);
+}
+
+.pr-toggle--margin {
+  display: block;
+  margin-bottom: calc(var(--base) * 6);
+}
+
+.pr-toggle__knob {
+  transition: transform 170ms ease-in-out, background 170ms ease-in-out;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: translateX(101%);
+  width: 50%;
+  background: white;
+}
+
+.pr-toggle__option {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: calc(var(--base) * 3);
+}
+
+.pr-toggle__input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.pr-toggle__input:focus ~ .pr-toggle__label {
+  box-shadow: 0 0 0 2px var(--main-color, var(--ps-yellow));
+}
+
+.pr-toggle__input:checked ~ .pr-toggle__label .pr-toggle__knob {
+  transform: translateX(0%);
+  background: var(--ps-green);
+}

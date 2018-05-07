@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stencil Starter App</title>
+  <meta name="Description" content="Welcome to the Stencil App Starter. You can use this starter to build entire apps all with web components using Stencil!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#16161d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+
+  <script src="/build/app.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Muli:400,900');
+    body {
+      padding: 0;
+      margin: 0;
+      background: white;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <pr-frame>
+    <pr-header headline="I am the header"></pr-header>
+    <pr-component headline="Button" code="<pr-button>Button</pr-button>">
+      <pr-button yellow red>Button</pr-button>
+
+
+      <div slot="props">
+
+
+        <pr-input label="Content" value="Button"></pr-input>
+        <pr-input label="href"></pr-input>
+
+        <pr-label>fullwidth</pr-label>
+        <pr-toggle input-id="fullwidth"></pr-toggle>
+
+        <pr-label>nomargin</pr-label>
+        <pr-toggle input-id="nomargin"></pr-toggle>
+
+        <pr-label>yellow</pr-label>
+        <pr-toggle input-id="yellow"></pr-toggle>
+
+        <pr-label>red</pr-label>
+        <pr-toggle input-id="red"></pr-toggle>
+
+        <pr-label>ghost</pr-label>
+        <pr-toggle input-id="ghost"></pr-toggle>
+
+        <pr-label>baem</pr-label>
+        <pr-toggle input-id="baem"></pr-toggle>
+
+      </div>
+
+    </pr-component>
+  </pr-frame>
+</body>
+
+</html>

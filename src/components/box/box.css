@@ -1,0 +1,8 @@
+pr-box {
+  display: block;
+  background: white;
+  border-radius: var(--border-radius);
+  color: black;
+  transition: box-shadow 170ms ease-in-out;
+  box-shadow: var(--pr-box-shadow) var(--main-color, var(--ps-blue));
+}

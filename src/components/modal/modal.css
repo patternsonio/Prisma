@@ -1,0 +1,20 @@
+pr-modal {
+  position: fixed;
+  height: 100vh;
+  width: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+pr-modal .pr-modal-content {
+  padding: calc(var(--base) * 8);
+  background: white;
+  color: black;
+  font-weight: 900;
+  border-radius: var(--border-radius);
+  display: inline-block;
+}
