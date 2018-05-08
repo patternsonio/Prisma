@@ -1,67 +1,65 @@
 pr-frame {
-  --font-family: 'Muli', sans-serif;
-  --ps-code-font-family: 'Lucida Console', Monaco, monospace;
-  --ps-blue: #399cf9;
-  --ps-green: #66f0a6;
-  --ps-red: #ed3f5f;
-  --ps-yellow: #ffe100;
-  --ps-magenta: #ff48b1;
-  --dark: black;
-  --light: white;
-  --ps-grey--alpha: #1a1c1f;
-  --border-width: 2px;
-  --border-radius: 2px;
-  --pr-box-shadow: 10px 10px 0 0;
+	--font-family: 'Muli', sans-serif;
+	--ps-code-font-family: 'Lucida Console', Monaco, monospace;
+	--ps-blue: #399cf9;
+	--ps-green: #66f0a6;
+	--ps-red: #ed3f5f;
+	--ps-yellow: #ffe100;
+	--ps-magenta: #ff48b1;
+	--dark: black;
+	--light: white;
+	--ps-grey--alpha: #1a1c1f;
+	--border-width: 2px;
+	--border-radius: 2px;
+	--pr-box-shadow: 10px 10px 0 0;
 
-  --base: 5px;
+	--base: 5px;
 
-  --content-padding: calc(var(--base) * 15);
-  --content-width: 960px;
-  --font-size--S: 16px;
-  --font-size: 20px;
-  --font-size--M: 20px;
-  --font-size--L: 26px;
-  --font-size--XL: 26px;
-  --font-size--XXL: 76px;
+	--content-padding: calc(var(--base) * 15);
+	--content-width: 960px;
+	--font-size--S: 16px;
+	--font-size: 20px;
+	--font-size--M: 20px;
+	--font-size--L: 26px;
+	--font-size--XL: 26px;
+	--font-size--XXL: 76px;
 
-  font-family: var(--font-family);
+	font-family: var(--font-family);
 }
 
 pr-frame {
-  width: 100%;
-  display: block;
-  background: black;
-  color: white;
+	width: 100%;
+	display: block;
 }
 
 .feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: calc(var(--base) * 6);
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: calc(var(--base) * 6);
 }
 
 .green {
-  --highlight-color: var(--ps-green);
+	--highlight-color: var(--ps-green);
 }
 
 .red {
-  --highlight-color: var(--ps-red);
+	--highlight-color: var(--ps-red);
 }
 
 .blue {
-  --highlight-color: var(--ps-blue);
+	--highlight-color: var(--ps-blue);
 }
 
 @media (max-width: 900px) {
-  pr-frame {
-    --pr-box-shadow: 5px 5px 0 0;
-    --font-size--XXL: 56px;
-    --content-padding: calc(var(--base) * 5);
-  }
+	pr-frame {
+		--pr-box-shadow: 5px 5px 0 0;
+		--font-size--XXL: 56px;
+		--content-padding: calc(var(--base) * 5);
+	}
 }
 
 @media (max-width: 600px) {
-  pr-frame {
-    --font-size--XXL: 30px;
-  }
+	pr-frame {
+		--font-size--XXL: 30px;
+	}
 }
