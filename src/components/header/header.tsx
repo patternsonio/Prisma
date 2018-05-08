@@ -3,6 +3,7 @@ import { Component, Prop } from '@stencil/core';
 @Component({
   tag: 'pr-header',
   styleUrl: 'header.css',
+  shadow: true,
 })
 export class Header {
   @Prop() headline: string;
