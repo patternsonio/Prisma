@@ -5,7 +5,9 @@ import { Element, Component, Prop } from '@stencil/core';
   styleUrl: 'button.css',
 })
 export class Button {
+  /** optional link target for the button */
   @Prop() href: string;
+  /** maximise width of button */
   @Prop() fullwidth: boolean = false;
   @Prop() nomargin: boolean = false;
   @Prop() yellow: boolean = false;

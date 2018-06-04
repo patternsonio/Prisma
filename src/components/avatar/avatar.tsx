@@ -5,6 +5,7 @@ import { Component, Prop } from '@stencil/core';
   styleUrl: 'avatar.css',
 })
 export class Avatar {
+  /** source url of the avatar image */
   @Prop() src: string;
   render() {
     const imgurl = {

@@ -5,7 +5,9 @@ import { Component, Prop } from '@stencil/core';
   styleUrl: 'code.css',
 })
 export class Code {
+  /** language of the code */
   @Prop() type: string;
+  /** the source-code to be displayed */
   @Prop() code: string;
 
   selector;
